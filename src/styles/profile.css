@@ -47,5 +47,8 @@
     .box2.show {
         display: flex;
     }
+    .profile-section{
+        background-color:#000;
+    }
 
 }
