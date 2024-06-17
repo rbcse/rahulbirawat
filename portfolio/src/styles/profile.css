@@ -1,0 +1,51 @@
+.profile-section {
+    background-color: #212122;
+    padding: 1.2rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    text-align: center;
+    width: 20%;
+}
+
+.box1, .box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box1 .image-section {
+    border-radius: 5px;
+    background-color: #1e1e1f;
+    padding: 0.2rem;
+}
+
+.box2 {
+    gap: 1.4rem;
+}
+
+#down-btn {
+    display: none;
+}
+
+@media (max-width: 450px) {
+    #down-btn {
+        display: block;
+        position: relative;
+        left: 8.5rem;
+        border: 2px solid #ffdb70;
+        padding: 0.4rem;
+        cursor: pointer;
+    }
+    .box2 {
+        display: none;
+    }
+    .box2.show {
+        display: flex;
+    }
+
+}
