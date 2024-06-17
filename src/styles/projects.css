@@ -1,0 +1,26 @@
+.project-section{
+    width:70%;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:1.5rem;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    gap:1.2rem;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+@media (max-width:450px){
+    .cards{
+        flex-direction: column;
+        gap:2rem;
+    }
+}
