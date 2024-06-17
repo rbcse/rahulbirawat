@@ -1,0 +1,18 @@
+.education-box{
+    display:flex;
+    justify-content: baseline;
+    align-items: baseline;
+    gap:1.2rem;
+    width:100%;
+}
+
+span{
+    color:#ffdb70;
+}
+
+.box1{
+    display:flex;
+    justify-content: baseline;
+    align-items: baseline;
+    gap:1.2rem;
+}

@@ -1,0 +1,36 @@
+.about-section{
+    width:70%;
+    border-radius:10px;
+    display:flex;
+    justify-content: baseline;
+    flex-direction: column;
+    align-items: baseline;
+    gap:1.5rem;
+}
+
+.text-section{
+    display:flex;
+    justify-content: baseline;
+    flex-direction: column;
+    align-items: baseline;
+    gap:1.5rem;
+}
+
+.text-section p{
+    font-weight:300;
+    font-size:0.9rem;
+}
+
+.text-section a{
+    border:2px solid white;
+    text-decoration: none;
+    color:white;
+    padding:0.6rem;
+}
+
+.skills{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+}

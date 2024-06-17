@@ -1,0 +1,29 @@
+.detail-section{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap:1rem;
+    width:100%;
+}
+i{
+    color:#ffdb70;
+}
+
+.text_details {
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.text_details h2{
+    float:right;
+    font-size:1.2rem;
+}
+
+.text_details a{
+    text-decoration: none;
+    color:white;
+    font-weight:300;
+    font-size:0.9rem;
+}

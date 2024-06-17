@@ -1,0 +1,22 @@
+.skill-box , .text-section{
+    display:flex;
+    justify-content: baseline;
+    align-items: center;
+    gap:2rem;
+}
+
+.skill-box{
+    padding:1.2rem;
+    border-radius: 10px;
+    background-color: #1e1e1f;
+    width:45%;
+}
+
+.image-section i{
+    color:#ffdb70;
+    font-size:3rem;
+}
+
+.text-section{
+    flex-direction: column;
+}
