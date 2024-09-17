@@ -17,3 +17,11 @@
     align-items: baseline;
     gap:1.4rem;
 }
+
+.experience-section{
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    flex-direction: column;
+    gap:0.5rem;
+}

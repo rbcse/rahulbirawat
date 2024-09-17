@@ -28,6 +28,7 @@ function Profile() {
                 <Detail icon_name="fa-brands fa-github" heading="Github" link="https://github.com/rbcse" para="Github profile" />
                 <Detail icon_name="fa-brands fa-linkedin" heading="Linkedin" link="https://www.linkedin.com/in/rahul-birawat-5620ba250/" para="profile" />
                 <Detail icon_name="fa-solid fa-location-dot" heading="Location" link="#" para="Surat , Gujarat" />
+                <Detail icon_name="fa-solid fa-terminal" heading="LeetCode" link="https://leetcode.com/u/rahul_6677/" para="Profile" />
             </div>
         </div>
     );
