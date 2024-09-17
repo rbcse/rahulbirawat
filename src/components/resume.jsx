@@ -5,6 +5,13 @@ function Resume(){
     return <div className="resume-section">
         <Navbar />
         <h1>Resume</h1>
+        <div className="experience-section">
+            <h2><i class="fa-solid fa-book-open"></i> Experience</h2>
+            <EduBox heading="Software Engineer Intern" year="August 2024 - Present" text="Currently working as a full stack developer at Aspyr and Developing an interview conducting website. 
+            Using Java and Spring Boot & React with Tailwind CSS for developing the software.
+            "/>
+            <EduBox heading="Amazon ML Summer School" year="July 2024 - Aug 2024" text="Selected among 35000+ students in Amazon ML School 2024. Learned about Supervised ML Algorithms , LLM's and Generative AI."/>
+        </div>
         <div className="education-section">
             <div className="heading-section">
                 <i className="fa-solid fa-school"></i>

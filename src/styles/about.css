@@ -28,6 +28,13 @@
     padding:0.6rem;
 }
 
+.text-section a:hover{
+    background-color: white;
+    color:black;
+    transition: 0.5s;
+    font-weight:bolder;
+}
+
 .skills{
     width:100%;
     display: flex;
