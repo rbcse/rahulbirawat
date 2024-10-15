@@ -7,7 +7,7 @@ function Project() {
         <Navbar />
         <h1>Projects</h1>
         <div className="cards">
-            <Card color="orange" image="../quiclearn.png" heading="QuicLearn" stacks="ReactJS , NodeJS , ExpressJS , Razorpay & MongoDB" link="https://github.com/rbcse/QuicLearn" github="https://quiclearnedu.netlify.app/" />
+            <Card color="orange" image="../quiclearn.png" heading="QuicLearn" stacks="ReactJS , NodeJS , ExpressJS , Razorpay & MongoDB" link="https://github.com/rbcse/QuicLearn" github="https://quiclearneducation.netlify.app/" />
             
             <Card color="white" image="../bookmyhotel.png" heading="BookMyHotel" stacks="EJS , NodeJS , ExpressJS , Razorpay & PostgresSQL" link="https://www.loom.com/share/694a4410b3ef4e078328b1ca73a03249?sid=971ba178-9029-48e5-bc90-04631daf7efc" github="https://github.com/rbcse/hotelbooking" />
 
